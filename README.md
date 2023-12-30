@@ -53,7 +53,7 @@
 	
   <h1>
     <p align="center">
-        <a href="https://dashboard.heroku.com/new?template=https://github.com/IR-O/IRO_ROBOT">
+        <a href="https://dashboard.heroku.com/new?template=https://github.com/PB65-Aujla/IRO_ROBOT">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
 </h1>
@@ -78,7 +78,7 @@
 </h1>
 </details> 
 
-	Note:- Fill https://github.com/IR-O/IRO_ROBOT/blob/main/IRO/confing.py Before Use
+	Note:- Fill https://github.com/PB65-Aujla/IRO_ROBOT/blob/main/IRO/confing.py Before Use
 	
 <details>
 	<summary> ᴠᴘꜱ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ </summary>
@@ -89,7 +89,7 @@
 	
 `sudo pip3 install -U pip`
 
-`git clone https://github.com/IR-O/IRO_ROBOT && cd IRO_ROBOT`
+`git clone https://github.com/PB65-Aujla/IRO_ROBOT && cd IRO_ROBOT`
 
 `pip3 install --upgrade pip setuptools`
 
