@@ -110,7 +110,7 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="☑️ ᴄᴏᴍᴍᴀɴᴅꜱ ☑️", callback_data="help_back"),
+        InlineKeyboardButton(text="☑️ ᴄᴏᴍᴍᴀɴᴅꜱ ☑️", callback_data="IRO_"),
     ],
     [
         InlineKeyboardButton(text="🔘sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_CHAT}"),
@@ -421,22 +421,13 @@ def IRO_about_callback(update, context):
     if query.data == "IRO_":
         query.message.edit_text(
             text=f"๏ I'm [{BOT_NAME}](https://t.me/Iro_m_bot), ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ."
-            "\n» ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
-            "\n» ɪ ᴀᴍ ʙᴜɪʟᴛ ᴡɪᴛʜ [ᴘʏᴛʜᴏɴ](https://www.python.org/) ,[ᴍᴏɴɢᴏᴅʙ](https://www.mongodb.com/)."
-            "\n» ᴍʏ ʙᴀꜱᴇ ɪꜱ ᴍᴀᴅᴇ ᴜᴘ ᴏꜰ [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon) ᴀɴᴅ [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)."
-            "\n» ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
-            "\n» ɪ ʜᴀᴠᴇ ɴꜱᴡꜰ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛꜱ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ᴘᴏʀɴᴏɢʀᴀᴘʜɪᴄ ᴄᴏɴᴛᴇɴᴛꜱ."
-            "\n» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴘᴀᴍꜱ ᴀɴᴅ ʀᴀɪᴅꜱ."
-            "\n» ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴛᴏᴏʟꜱ ꜰᴏʀ ꜰᴜɴ ᴀɴᴅ ᴇɴᴊᴏʏᴍᴇɴᴛ ᴛᴏ ᴇɴᴛᴇʀᴛᴀɪɴ ʏᴏᴜ ᴀʟʟ"
-            "\n» ɪ ᴀᴍ ᴘᴜʙʟɪꜱʜᴇᴅ ᴜɴᴅᴇʀ ʟɪᴄᴇɴꜱᴇ :- [ɢɴᴜ ʟɪᴄᴇɴꜱᴇ](https://github.com/IR-O/IRO_ROBOT/blob/main/LICENSE)"
-            "\n\n 𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗜𝗡𝗚 𝗨𝗦",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/The_ChatGroup"),
+        InlineKeyboardButton(text="🖱️ 𝖬𝖠𝖭𝖦𝖬𝖤𝖭𝖳", callback_data="help_back"),
+        InlineKeyboardButton(text="𝖬𝖴𝖲𝖨𝖢 🖱️", callback_data="settings_back_helper"),
                  ],
                  [
                     InlineKeyboardButton(text="◁", callback_data="IRO_back"),
